@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Casos de Uso" id="casosuso1">
+    <mxGraphModel dx="1296" dy="772" grid="1" gridSize="10" guides="1" tooltips="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="actor1" value="Usuário" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="usecase1" value="Cadastrar Tarefa" style="ellipse;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="usecase2" value="Atualizar Tarefa" style="ellipse;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="usecase3" value="Excluir Tarefa" style="ellipse;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="line1" edge="1" source="actor1" target="usecase1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="line2" edge="1" source="actor1" target="usecase2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="line3" edge="1" source="actor1" target="usecase3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
